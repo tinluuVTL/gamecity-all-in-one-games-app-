@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta name="generator" content="Hugo 0.57.2" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+    <link rel="stylesheet" href="css/blue.css">
+    
+	<script src="js/modernizr.js"></script>
+	<title>INSTRUCTIONS ABOUT GAMECITY</title>
+</head>
+<body>
+<header>
+	<h1>CLEAN DOCUMENTATION</h1>
+</header>
+<section class="cd-faq">
+	<ul class="cd-faq-categories">
+        
+		
+		<li><a  class="selected" href="#basics">ANDROID STUDIO</a></li>
+		
+		<li><a  class="selected" href="#mobile">LOGO DETAILS</a></li>
+		
+		<li><a  class="selected" href="#account">ADMIN PANEL</a></li>
+		
+		<li><a  class="selected" href="#payments">API INTEGRATION</a></li>
+		
+		<li><a  class="selected" href="#delivery">CONTACT</a></li>
+		
+	</ul>
+
+	<div class="cd-faq-items">
+	
+		<ul id="basics" class="cd-faq-group">
+		</br>
+			<li class="cd-faq-title"><h2>Software</h2></li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">WHICH ANDROID VERSION IS NEEDED?</a>
+				<div class="cd-faq-content">
+					<p>Latest Android Studio version is recommended, which can be downloaded from here:
+					<a href="https://developer.android.com/studio"><br/><font color="red">http://developer.android.com/intl/en/sdk/index.html</font></a>
+					<br/>
+					</p>
+					</div>
+			</li>	
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO OPEN THE PROJECT IN ANDROID STUDIO?</a>
+				<div class="cd-faq-content">
+					<p>
+    Open Android Studio > Open an Existing Android Studio Project > Select Your Project build.gradle file > ok
+    Select Project
+</p>
+					<img src="images/import.png"/>
+					<p>
+					please select Ajker Khobor and click on OK button
+					</p>
+					<img src="images/import2.png"/>
+					</div>
+			</li>	
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE THE PACKAGE NAME?</a>
+				<div class="cd-faq-content">
+					<p>
+    Open Android Studio > Open an Existing Android Studio Project > Select Your Project build.gradle file > ok
+    Select Project
+</p>
+					
+					<img src="images/packagename.png"/>
+					
+					<p>
+					 
+	You can change it easily from Android Studio. Here are the steps: You can change it easily from Android Studio. Here are the steps:
+	<br/><br/>
+    <strong>1. In the Project pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</strong><br/>
+    <b>2. Your package directory will now be broken up in individual directories.</b><br/>
+    <b>3. Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</b><br/>
+    <b>4. Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</b><br/>
+    <b>5. Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</b><br/>
+<br/><br/>
+    Note: When renaming com in Android Studio, it might give a warning. In such case, selectRename All. 
+					</p>
+					</div>
+			</li>	
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE THE APP NAME?</a>
+				<div class="cd-faq-content">
+					<p>
+   
+    Open Android Studio >GameCity> res > values > strings.xml
+    Enter your app name inside "app_name" string tag:
+<code>&lt;string name="app_name"&gt;<b>GameCity</b>&lt;/string&gt;</code>
+
+</p>
+					<img src="images/string.png"/>
+				
+					</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO SET ADMOB ADS?</a>
+				<div class="cd-faq-content">
+					<p>please go to string.xml file and replace your Application ID and Rewarded ads code.</p>
+				
+					</div>
+			</li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE TABS NAME?</a>
+				<div class="cd-faq-content">
+					<p>you can change the tabs names from MainActivity.java - please go to MainActivity.java file and scroll down, then you can find like this below image.
+					</p>
+					<img src="images/tabs.png"/>
+					</div>
+			</li>	
+			
+		</ul>
+		
+		<ul id="mobile" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Photoshop</h2></li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE THE IMAGE ASSEST?</a>
+				<div class="cd-faq-content">
+					<p>please go to <font color="red">all drawable</font> folders and find the image that you want to change from this app. open the photoshop and select the image and just change the image that you want to replace.</p>
+					<p style="padding-bottom:10px;color:black;">
+					please open that logo you want to change. just replace your new image to this current png file.
+					</p>
+					</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE THE SPLASH SCREEN?</a>
+				<div class="cd-faq-content">
+					<p>please go to <font color="red">all drawable</font> folders and find splash.png file, then open photoshop and create a new image with this current splash image size. and then save or replace it to the drawable folder.</p>
+					<img src="images/splash.png" class="tut"/>
+					</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO CHANGE THE APP ICON?</a>
+				<div class="cd-faq-content">
+					<p>please right click on the app folder > New > Image Assest then browse the icon from your computer.</p>
+					<img src="images/appicon.png" class="tut"/>
+					</div>
+			</li>
+			
+		</ul>
+		
+		<ul id="account" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Admin</h2></li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO SETUP ADMIN PANEL?</a>
+				<div class="cd-faq-content">
+					<p>extract Admin_Panel zip file to your localhost or live server. then open "includes>config.php" file and replace your database details.
+					<br>
+					<strong>config.php</strong>
+					<img src="images/config.png" class="tut"/>
+					and then open "api>config>database.php" file and replace your database details again.</p>
+					<br>
+					<strong>database.php</strong>
+					<img src="images/links.png" class="tut"/>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">WHAT IS THE LOGIN ID PASSWORD?</a>
+				<div class="cd-faq-content">
+					<p>Login: https://yourdomain.com/GameCity/ is an example of admin login page. <br> Username: admin <br> Password: admin</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">WHAT IS THE API LINKS?</a>
+				<div class="cd-faq-content">
+					<p>there is 3 api link examples <br> 1. https://yourdomain.com/GameCity/api/product/bangla.php <br> 2. https://yourdomain.com/GameCity/api/product/english.php <br> 3. https://yourdomain.com/GameCity/api/product/hindi.php</p>
+				</div>
+			</li>
+			
+		</ul>
+		
+		<ul id="payments" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Android App</h2></li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">HOW TO SETUP YOUR API?</a>
+				<div class="cd-faq-content">
+					<p>open GameCity android project via Android Studio, and then go to fragments>Home.java and replace the api link. and do the same think in English and Hindi java files.</p>
+					<img src="images/api.png" class="tut"/>
+				</div>
+			</li>			
+		</ul>
+		
+	
+		
+		<ul id="delivery" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Contact</h2></li>
+		
+			<li>
+				<a class="cd-faq-trigger" href="#0">CONTACT WITH FACEBOOK</a>
+				<div class="cd-faq-content">
+					<p>please go to my <a href="https://facebook.com/hacku2day/"><font color="red">Facebook</font></a> profile and send me message with your purchasing profile screenshot from codecanyon.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">CONTACT WITH EMAIL</a>
+				<div class="cd-faq-content">
+					<p>please go to my <a href="mailto:gurujibd.official@gmail.com"><font color="red">Email</font></a> and send me a mail with your purchasing profile screenshot from codecanyon.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">CONTACT WITH CODECANYON</a>
+				<div class="cd-faq-content">
+					<p>please go to my <a href="https://codecanyon.net/user/gurujibd"><font color="red">Codecanyon</font></a> and send me a message including your questions.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">DO YOU WANT TO HIRE ME?</a>
+				<div class="cd-faq-content">
+					<p>please mail or contact with me for hire now. i can do your job with many services. just use my contact details for contact with me.</p>
+					</div>
+			</li>
+			
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">WHAT I CAN DO?</a>
+				<div class="cd-faq-content">
+					<p>i'm an android app developer. i can develop any type of android application such as: tools, webview app, news app, shopping app, wordpress theme development, cyber security, boost your website speed, search engine optimization, business website, php custom website, cms, video editing, logo design, animation and much more.</p>
+					</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">CONTACT WITH UPWORK</a>
+				<div class="cd-faq-content">
+					<p>you can simply contact with me on <a href="https://www.upwork.com/freelancers/~01139dbbcf0626e52a"><font color="red">Upwork</font></a> for discuss about your project.</p>
+					</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">CONTACT WITH FIVERR</a>
+				<div class="cd-faq-content">
+					<p>you can simply contact with me on <a href="https://www.fiverr.com/users/masud512/"><font color="red">Fiverr</font></a> for discuss about your project.</p>
+					</div>
+			</li>
+			
+		</ul>
+		
+	</div>
+	<a href="#0" class="cd-close-panel">Close</a>
+</section>
+<script src="js/fo1.js"></script>
+<script src="js/fo2.js"></script>
+<script src="js/fo3.js"></script>
+</body>
+</html>
